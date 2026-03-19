@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
 
@@ -21,3 +24,14 @@ class Solution:
                 if numsDict[compliment] != i:
                     #return the index of both numbers 
                     return [i, numsDict[compliment]]
+
+
+#driver
+if __name__ == "__main__":
+    mySolution = Solution()
+
+    nums = [2,7,11,15]
+    target=50
+
+    result = mySolution.twoSum(nums, target)
+    print(result)
