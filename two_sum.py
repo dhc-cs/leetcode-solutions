@@ -10,8 +10,11 @@ class Solution:
             hashTable[num] = i
             print(f'key: {num}')
             print(f'value: {hashTable[num]}\n')
-            #print(f'i: {i}\n')
             
+            #print(f'i: {i}\n')
+        
+        #for i in enumerate(nums):
+            #print(f'Using enumerate to print out {i}')
         
         print(f'{hashTable.keys()}')
         print(f'{hashTable.values()}')
